@@ -44,7 +44,10 @@ export default function Checkout() {
         const { id, ...itemData } = item; // Exclude the "id" property from the item
         let details = Object.entries(itemData)
           .filter(([key]) => key !== "image" && key !== "total")
-          .map(([key, value]) => `*${key.charAt(0).toUpperCase() + key.slice(1)}*: ${value}`)
+          .map(
+            ([key, value]) =>
+              `*${key.charAt(0).toUpperCase() + key.slice(1)}*: ${value}`
+          )
           .join("\n");
         return details;
       });
@@ -54,13 +57,12 @@ export default function Checkout() {
       let Wlink = "";
       if (isMobile) {
         Wlink = "https://api.whatsapp.com/send?phone=971508550258&text=";
-      } else{
+      } else {
         Wlink = "https://web.whatsapp.com/send?phone=971508550258&text=";
       }
       const finallink = Wlink + encodedUrl;
       window.open(finallink, "_blank");
       localStorage.setItem("cartItems", JSON.stringify([]));
-      
     }
   };
   return (

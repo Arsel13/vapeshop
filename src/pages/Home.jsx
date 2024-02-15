@@ -83,13 +83,13 @@ export default function Home() {
                 <div className="text-center mb-5">
                   <h2>Heets Classic</h2>
                   <p>
-                    We offer <b> Classic IQOS Heets</b> Dubai UAE, Abu Dhabi, Sharjah,
-                    Ajman, Fujairah, and RAK. IQOS Heets Dubai UAE Classic
-                    consists of no additional flavors. Instead, it contains
-                    blended, fine-cut tobacco. Its taste and smell are strong.
-                    You can buy this range of IQOS Heets Dubai UAE with cash on
-                    delivery facility in Abu Dhabi, Dubai, UAE, Sharjah, Ajman,
-                    Fujairah, and RAK.
+                    We offer <b> Classic IQOS Heets</b> Dubai UAE, Abu Dhabi,
+                    Sharjah, Ajman, Fujairah, and RAK. IQOS Heets Dubai UAE
+                    Classic consists of no additional flavors. Instead, it
+                    contains blended, fine-cut tobacco. Its taste and smell are
+                    strong. You can buy this range of IQOS Heets Dubai UAE with
+                    cash on delivery facility in Abu Dhabi, Dubai, UAE, Sharjah,
+                    Ajman, Fujairah, and RAK.
                   </p>
                   <hr />
                 </div>
@@ -130,13 +130,13 @@ export default function Home() {
                 <div className="text-center mb-5">
                   <h2>IQOS Heet Terea</h2>
                   <p>
-                    <b>IQOS HEET TEREA</b> is a product specifically designed for IQOS
-                    ILUMA. In the opinion of most customers, its groundbreaking
-                    smart core induction system provides superior draw, a
-                    consistent flavor from stick to stick, abundant vapor, and
-                    less residual odor than ever before. The IQOS ILUMA is
-                    solely intended for use with TEREA sticks. Buy IQOS Heets
-                    Terea online in Dubai, Abu Dhabi, UAE, Sharjah, Ajman,
+                    <b>IQOS HEET TEREA</b> is a product specifically designed
+                    for IQOS ILUMA. In the opinion of most customers, its
+                    groundbreaking smart core induction system provides superior
+                    draw, a consistent flavor from stick to stick, abundant
+                    vapor, and less residual odor than ever before. The IQOS
+                    ILUMA is solely intended for use with TEREA sticks. Buy IQOS
+                    Heets Terea online in Dubai, Abu Dhabi, UAE, Sharjah, Ajman,
                     Fujairah, and RAK at a very reasonable price.
                   </p>
                   <hr />
@@ -178,7 +178,14 @@ export default function Home() {
                 <div className="text-center mb-5">
                   <h2>ILUMA ONE</h2>
                   <p>
-                    <b>Heets IQOS ILUMA ONE </b> heats tobacco instead of burning it, which means that it is less harmful and healthier for you. This Heets IQOS ILUMA One uses heat and pressure to vaporize the tobacco, creating a smokeless and water vapor-like smoke. It also uses a flavored cartridge that can be replaced easily. This is a great new product for people who are looking for a healthier option than smoking traditional cigarettes.
+                    <b>Heets IQOS ILUMA ONE </b> heats tobacco instead of
+                    burning it, which means that it is less harmful and
+                    healthier for you. This Heets IQOS ILUMA One uses heat and
+                    pressure to vaporize the tobacco, creating a smokeless and
+                    water vapor-like smoke. It also uses a flavored cartridge
+                    that can be replaced easily. This is a great new product for
+                    people who are looking for a healthier option than smoking
+                    traditional cigarettes.
                   </p>
                   <hr />
                 </div>
@@ -219,7 +226,9 @@ export default function Home() {
                 <div className="text-center mb-5">
                   <h2>ILUMA PRIME</h2>
                   <p>
-                    <b> ILUMA PRIME</b>  features a completely new design that blends high-quality metal with an appealing wrap. IQOS ILUMA PRIME features all of the same advantages as IQOS ILUMA.
+                    <b> ILUMA PRIME</b> features a completely new design that
+                    blends high-quality metal with an appealing wrap. IQOS ILUMA
+                    PRIME features all of the same advantages as IQOS ILUMA.
                   </p>
                   <hr />
                 </div>
@@ -260,7 +269,10 @@ export default function Home() {
                 <div className="text-center mb-5">
                   <h2>IQOS ILUMA PRIME OASIS </h2>
                   <p>
-                  IQOS ILUMA Prime OASIS is the most premium device of this new limited edition made up of a pocket charger and a device with 20 uses per full charge.</p>
+                    IQOS ILUMA Prime OASIS is the most premium device of this
+                    new limited edition made up of a pocket charger and a device
+                    with 20 uses per full charge.
+                  </p>
                   <hr />
                 </div>
                 <div className="row">

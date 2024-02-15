@@ -78,7 +78,6 @@ export default function Shop() {
           <div className="container mt-5">
             <div className="row">
               <ShopFilter
-              
                 filter={data?.data?.categories?.map((filter, index) => (
                   <li className="lvl-1">
                     <button
@@ -105,17 +104,12 @@ export default function Shop() {
                       <div className="row">
                         <div className="col-4 col-md-4 col-lg-4 filters-toolbar__item collection-view-as d-flex justify-content-start align-items-center">
                           <a
-                           
                             title="Grid View"
                             className="change-view change-view--active"
                           >
                             <img src="assets/images/grid.jpg" alt="Grid" />
                           </a>
-                          <a
-                            
-                            title="List View"
-                            className="change-view"
-                          >
+                          <a title="List View" className="change-view">
                             <img src="assets/images/list.jpg" alt="List" />
                           </a>
                         </div>

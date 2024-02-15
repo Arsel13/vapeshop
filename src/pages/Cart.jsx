@@ -20,7 +20,7 @@ export default function Cart() {
   };
   useEffect(() => {
     calculateTotalSum();
-  },[]);
+  }, []);
 
   const cartEdit = (id, math) => {
     const updatedCartItems = cartArr.map((item) => {
@@ -75,9 +75,7 @@ export default function Cart() {
                 <table>
                   <thead className="cart__row cart__header">
                     <tr>
-                      <th className="text-center">
-                        Product
-                      </th>
+                      <th className="text-center">Product</th>
                       <th className="text-center">Price</th>
                       <th className="text-center">Quantity</th>
                       <th className="text-right">Total</th>
@@ -87,12 +85,11 @@ export default function Cart() {
                   <tbody>
                     {cartArr?.map((cart, index) => (
                       <tr className="cart__row border-bottom line1 cart-flex border-top">
-                      
                         <td className="cart__meta small--text-left cart-flex-item">
                           <div className="list-view-item__title">
                             <a href="#">{cart?.title} </a>
                           </div>
-{/* 
+                          {/* 
                           <div className="cart__meta-text">
                             Color: {cart?.color}
                           </div> */}

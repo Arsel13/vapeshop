@@ -12,7 +12,6 @@ import Item1 from "../components/Item1";
 import { BASE_URL } from "../Utilities/URL";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import Item from "../components/Item";
 
 export default function Home() {
   const { data } = GetAPI("get_all_products");

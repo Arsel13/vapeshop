@@ -5,7 +5,6 @@ import MobileNav from "../components/MobileNav";
 import TopHeader from "../components/TopHeader";
 import ItemModel from "../components/ItemModel";
 import PostAPI from "../api/PostAPI";
-import { useNavigate } from "react-router-dom";
 
 export default function Checkout() {
   const [data, setData] = useState({
@@ -36,7 +35,6 @@ export default function Checkout() {
       description: data.description,
     });
     if (res?.data?.status === "1") {
-      console.log(res.data);
       const isMobile = /Mobi|Android/i.test(window.navigator.userAgent);
       const cartItems = JSON.parse(localStorage.getItem("cartItems"));
       const userDetails = cartItems.map((item) => {

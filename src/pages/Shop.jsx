@@ -16,7 +16,6 @@ import { useNavigate } from "react-router-dom";
 export default function Shop() {
   const { data } = GetAPI("get_all_products");
   const [tabs, setTabs] = useState("");
-  console.log("🚀 ~ file: Shop.jsx:20 ~ Shop ~ tabs:", tabs);
   const navigate = useNavigate();
   const prodDetails = async (slug) => {
     var config = {

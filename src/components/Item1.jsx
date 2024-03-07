@@ -7,18 +7,29 @@ export default function Item1(props) {
 
   return (
     <>
-      <div
-        className="col-6 col-sm-6 col-md-4 col-lg-4 item"
-      >
-        <div className="card" style={{borderRadius:"15px" , overflow:"auto"}}>
-          <div className="product-image" style={{height: isMobile ? '170px' : '287px', display:"flex" , alignItems:"center"}}>
+      <div className="col-6 col-sm-6 col-md-4 col-lg-4 item">
+        <div
+          className="card"
+          style={{ borderRadius: "15px", overflow: "auto" }}
+        >
+          <div
+            className="product-image"
+            style={{
+              height: isMobile ? "170px" : "287px",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
             <div onClick={props.onClick}>
               <img
                 className="primary blur-up lazyload"
                 src={IMG_URL + props.img}
                 alt={props.title}
                 title="product"
-                style={{height: isMobile ? '170px' : '280px', objectFit:"contain"}}
+                style={{
+                  height: isMobile ? "170px" : "280px",
+                  objectFit: "contain",
+                }}
               />
 
               <img

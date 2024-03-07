@@ -1,8 +1,8 @@
 import React from "react";
-import creditcard from "../images/credit-card.png"
-import shield from "../images/shield.png"
-import worldwide from "../images/worldwide.png"
-import phonecall from "../images/phone-call.png"
+import creditcard from "../images/credit-card.png";
+import shield from "../images/shield.png";
+import worldwide from "../images/worldwide.png";
+import phonecall from "../images/phone-call.png";
 
 export default function ProductFeatures() {
   return (
@@ -10,21 +10,13 @@ export default function ProductFeatures() {
       <div className="prFeatures">
         <div className="row">
           <div className="col-12 col-sm-6 col-md-6 col-lg-3 feature">
-            <img
-              src={creditcard}
-              alt="Safe Payment"
-              title="Safe Payment"
-            />
+            <img src={creditcard} alt="Safe Payment" title="Safe Payment" />
             <div className="details">
               <h3>Safe Payment</h3>Pay with the world's most payment methods.
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-lg-3 feature">
-            <img
-              src={shield}
-              alt="Confidence"
-              title="Confidence"
-            />
+            <img src={shield} alt="Confidence" title="Confidence" />
             <div className="details">
               <h3>Confidence</h3>Protection covers your purchase and personal
               data.
@@ -42,11 +34,7 @@ export default function ProductFeatures() {
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-lg-3 feature">
-            <img
-              src={phonecall}
-              alt="Hotline"
-              title="Hotline"
-            />
+            <img src={phonecall} alt="Hotline" title="Hotline" />
             <div className="details">
               <h3>Hotline</h3>Talk to help line for your question on 4141 456
               789, 4125 666 888

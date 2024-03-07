@@ -45,7 +45,7 @@ export default function Item() {
                 <i className="icon anm anm-search-plus-r"></i>
               </Link>
 
-              <div className="variants add" onClick="" style={{width:35}}>
+              <div className="variants add" onClick="" style={{ width: 35 }}>
                 <button className="btn cartIcon btn-addto-cart" type="button">
                   <i className="icon anm anm-bag-l"></i>
                 </button>

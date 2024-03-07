@@ -11,7 +11,12 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="logo col-md-2 col-lg-2 d-none d-lg-block">
               <Link to="/">
-                <img src={logo} alt="Heets Store" title="Heets Store" width={120} />
+                <img
+                  src={logo}
+                  alt="Heets Store"
+                  title="Heets Store"
+                  width={120}
+                />
               </Link>
             </div>
             <div className="col-2 col-sm-3 col-md-3 col-lg-8 d-none d-lg-block">
@@ -60,7 +65,6 @@ export default function Header() {
                     {cartId && cartId?.length > 0 ? cartId?.length : "0"}
                   </span>
                 </Link>
-
               </div>
             </div>
           </div>

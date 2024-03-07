@@ -9,9 +9,7 @@ export default function BreadCrumbs(props) {
             Home
           </a>
           <span aria-hidden="true"> = </span>
-          <a href="/shop">
-            Products
-          </a>
+          <a href="/shop">Products</a>
           <span aria-hidden="true"> = </span>
           <span>{props.title}</span>
         </div>

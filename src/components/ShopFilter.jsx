@@ -12,9 +12,7 @@ export default function ShopFilter(props) {
               <h2>Categories</h2>
             </div>
             <div className="widget-content">
-              <ul className="sidebar_categories">
-                {props.filter}
-              </ul>
+              <ul className="sidebar_categories">{props.filter}</ul>
             </div>
           </div>
           <div className="sidebar_widget filterBox filter-widget">

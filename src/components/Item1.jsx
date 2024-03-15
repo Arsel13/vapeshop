@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IMG_URL } from "../Utilities/URL";
 
 export default function Item1(props) {
-  const isMobile = window.innerWidth <= 540; // Adjust the breakpoint as per your requirements
+  const isMobile = window.innerWidth <= 540;
 
   return (
     <>

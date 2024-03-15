@@ -15,9 +15,7 @@ export default function HeroSection() {
             />
           </div>
           <div className="collection-hero__title-wrapper">
-            <h1 className="collection-hero__title page-width">
-              Shop
-            </h1>
+            <h1 className="collection-hero__title page-width">Shop</h1>
           </div>
         </div>
       </div>
